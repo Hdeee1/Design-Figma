@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: nunito;
+}
+
+.hvr a:hover {
+  transition: 200ms;
+  color: #35c6a0;
+}
+
+h1 {
+  color: 525252;
+}
