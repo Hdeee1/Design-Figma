@@ -14,7 +14,7 @@ const Hero = () => {
           </div>
           <div className="mb-8 ">
             <h1>
-              Just connect your web.whatsapp to the woowa server, then you{" "}
+              Just connect your web.whatsapp to the Woowa server, then you{" "}
               <br /> will be on 24 hours without having to open the laptop
             </h1>
           </div>
