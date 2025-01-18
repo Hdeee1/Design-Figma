@@ -14,3 +14,35 @@
 h1 {
   color: #525252;
 }
+
+.card{
+  padding: 20px;
+  border: 2px solid #E0E0E0 ;
+  border-radius:32px;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  text-align:center;
+  gap: 3rem;
+  /* width:290px;
+  height:360px; */
+}
+
+h3{
+  font-size: 20px;
+  font-weight: 700;
+}
+
+p{
+  font-size:18px;
+}
+
+.image{
+  width:;
+  height:;
+}
+
+.desk{
+  margin-top:10px;
+}

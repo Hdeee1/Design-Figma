@@ -1,9 +1,9 @@
 /* eslint-disable react/prop-types */
-const Title = ({ props }) => {
+const Title = ({ title }) => {
   return (
     <div>
       <h2 className="text-[#525252] text-4xl text-center font-extrabold ">
-        {props.title}
+        {title}
       </h2>
     </div>
   );

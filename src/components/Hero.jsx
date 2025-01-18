@@ -5,7 +5,7 @@ const Hero = () => {
     <div className="flex justify-between p-20 items-center text-[#525252] w-full ">
       <div className="w-3/6">
         <div>
-          <div className="text-5xl font-black mb-8">
+          <div className="text-[56px] font-black mb-8">
             <h1>
               Automatic notification <br /> and reminder{" "}
               <span className="text-[#9B5C8F]">Messages</span> <br /> via{" "}
@@ -13,10 +13,10 @@ const Hero = () => {
             </h1>
           </div>
           <div className="mb-8 ">
-            <h1>
+            <p>
               Just connect your web.whatsapp to the Woowa server, then you{" "}
               <br /> will be on 24 hours without having to open the laptop
-            </h1>
+            </p>
           </div>
         </div>
 

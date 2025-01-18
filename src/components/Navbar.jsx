@@ -7,7 +7,7 @@ const Navbar = () => {
         <img src={logo} alt="" />
       </div>
 
-      <div className="font-semibold text-[#525252]">
+      <div className="font-semibold text-xl text-[#525252]">
         <ul className="hvr flex gap-10">
           <a href="">
             <li>Home</li>
