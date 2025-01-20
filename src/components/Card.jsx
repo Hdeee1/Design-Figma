@@ -9,7 +9,7 @@ import FigurePhoto from "../image/FigurePhoto.png";
 
 const Card = () => {
   return (
-    <div className="h-dvh p-20 text-[#525252] grid gap-10  grid-cols-[repeat(4,minmax(290px,1fr))] grid-rows-[repeat(2,minmax(360px,1fr))] mt-5 justify-items-center">
+    <div className="h-dvh p-20 text-[#525252] grid gap-10  grid-cols-[repeat(4,minmax(290px,1fr))] grid-rows-[repeat(2,minmax(360px,1fr))] mt-5 mb-20 justify-items-center">
       <div className="card">
         <div className="image">
           <img src={FigureX} alt="" />
