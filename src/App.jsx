@@ -1,6 +1,7 @@
 import Card from "./components/Card";
 import DoubleHero from "./components/DoubleHero";
 import Hero from "./components/Hero";
+import HeroBottom from "./components/HeroBottom";
 import Navbar from "./components/Navbar";
 import Title from "./components/Title";
 
@@ -15,6 +16,7 @@ function App() {
       <Card />
       <Title title="Why should you use Whatsapp?" />
       <DoubleHero />
+      <HeroBottom/>
     </>
   );
 }

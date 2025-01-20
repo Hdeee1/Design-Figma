@@ -1,10 +1,12 @@
 import MyAnswer from "../image/MyAnswer.png";
 import EmailCampaign from "../image/EmailCampaign.png";
+import BusinessmanAmico from "../image/BusinessmanAmico.png";
+
 
 const DoubleHero = () => {
   return (
-    <div className="h-dvh flex flex-col justify-center">
-      <div className="top px-20  flex gap-3 w-full justify-around items-center ">
+    <div className="flex flex-col gap-5">
+      <div className="top px-20 pt-20 mt-5 flex gap-3 w-full justify-around items-center ">
         <div className="image-hero">
           <img src={MyAnswer} alt="" />
         </div>
@@ -16,7 +18,7 @@ const DoubleHero = () => {
           </h4>
         </div>
       </div>
-      <div className="bottom flex flex-row-reverse gap-3 justify-around items-center px-20 w-full">
+      <div className="middle flex flex-row-reverse gap-3 justify-around items-center px-20 w-full">
         <div className="image-hero">
           <img src={EmailCampaign} alt="" />
         </div>
@@ -28,6 +30,16 @@ const DoubleHero = () => {
           </h4>
         </div>
       </div>
+
+      <div className="bottom px-20 pb-20 mb-5 flex gap-3 w-full justify-around items-center">
+        <div className="image-hero">
+          <img src={BusinessmanAmico} alt="" />
+        </div>
+        <div className="double-hero-desk">
+          <h4>Social media has the highest CTR compared to email and other media, its effectiveness in triggering user interaction. It confirms social media as a powerful marketing tool to engage with audiences effectively.</h4>
+        </div>
+      </div>
+
     </div>
   );
 };
