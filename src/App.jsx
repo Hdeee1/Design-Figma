@@ -1,3 +1,4 @@
+import Bundle from './components/Bundle'
 import Card from "./components/Card";
 import DoubleHero from "./components/DoubleHero";
 import Hero from "./components/Hero";
@@ -20,6 +21,7 @@ function App() {
       <HeroBottom/>
       <Title title='Those who have used Woo-Wa'/>
       <Testimonial/>
+      <Bundle/>
     </>
   );
 }
