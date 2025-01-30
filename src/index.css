@@ -83,6 +83,10 @@ p {
   font-weight: 700;
 }
 
-ul li{
+ul li {
   display: flex;
+}
+
+.footer ul li a:hover {
+  border-bottom: 1px solid #525252;
 }
